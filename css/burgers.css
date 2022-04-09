@@ -1,0 +1,416 @@
+/* McDonald´s */
+
+#mc{
+	background-image: url("../assets/McDonalds/fondo1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.m1{
+	background-image: url("../assets/McDonalds/h1.png");
+}
+
+.m2{
+	background-image: url("../assets/McDonalds/h2.png");
+}
+
+.m3{
+	background-image: url("../assets/McDonalds/h3.png");
+}
+
+.m4{
+	background-image: url("../assets/McDonalds/h4.png");
+}
+
+.m5{
+	background-image: url("../assets/McDonalds/h5.png");
+}
+
+.m6{
+	background-image: url("../assets/McDonalds/h6.png");
+}
+
+.m7{
+	background-image: url("../assets/McDonalds/h7.png");
+}
+
+.m8{
+	background-image: url("../assets/McDonalds/h8.png");
+}
+
+.m9{
+	background-image: url("../assets/McDonalds/h9.png");
+}
+
+.m10{
+	background-image: url("../assets/McDonalds/h10.png");
+}
+
+.m11{
+	background-image: url("../assets/McDonalds/h11.png");
+}
+
+.m12{
+	background-image: url("../assets/McDonalds/h12.png");
+}
+
+.m13{
+	background-image: url("../assets/McDonalds/h13.png");
+}
+
+.m14{
+	background-image: url("../assets/McDonalds/h14.png");
+}
+
+.m15{
+	background-image: url("../assets/McDonalds/h15.png");
+}
+
+.m16{
+	background-image: url("../assets/McDonalds/h16.png");
+}
+
+/* Fin de McDonalds */
+
+/* Burger King */
+
+#bk{
+	background-image: url("../assets/BurgerKing/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.h1{
+	background-image: url("../assets/BurgerKing/h1.png");
+}
+
+.h2{
+	background-image: url("../assets/BurgerKing/h2.png");
+}
+
+.h3{
+	background-image: url("../assets/BurgerKing/h3.png");
+}
+
+.h4{
+	background-image: url("../assets/BurgerKing/h4.png");
+}
+
+.h5{
+	background-image: url("../assets/BurgerKing/h5.png");
+}
+
+.h6{
+	background-image: url("../assets/BurgerKing/h6.png");
+}
+
+.h7{
+	background-image: url("../assets/BurgerKing/h7.png");
+}
+
+.h8{
+	background-image: url("../assets/BurgerKing/h8.png");
+}
+
+.h9{
+	background-image: url("../assets/BurgerKing/h9.png");
+}
+
+.h10{
+	background-image: url("../assets/BurgerKing/h10.png");
+}
+
+.h11{
+	background-image: url("../assets/BurgerKing/h11.png");
+}
+
+.h12{
+	background-image: url("../assets/BurgerKing/h12.png");
+}
+
+.h13{
+	background-image: url("../assets/BurgerKing/h13.png");
+}
+
+.h14{
+	background-image: url("../assets/BurgerKing/h14.png");
+}
+
+.h15{
+	background-image: url("../assets/BurgerKing/h15.png");
+}
+
+.h16{
+	background-image: url("../assets/BurgerKing/h16.png");
+}
+
+.h17{
+	background-image: url("../assets/BurgerKing/h17.png");
+}
+
+.h18{
+	background-image: url("../assets/BurgerKing/h18.png");
+}
+
+.h19{
+	background-image: url("../assets/BurgerKing/h19.png");
+}
+
+.h20{
+	background-image: url("../assets/BurgerKing/h20.png");
+}
+
+.h21{
+	background-image: url("../assets/BurgerKing/h21.png");
+}
+
+/* Fin de Burger King */
+
+/* Mostaza */
+
+#mostaza{
+	background-image: url("../assets/Mostaza/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;	
+}
+
+.mz1{
+	background-image: url("../assets/Mostaza/h1.png");
+}
+
+.mz2{
+	background-image: url("../assets/Mostaza/h2.png");
+}
+
+.mz3{
+	background-image: url("../assets/Mostaza/h3.png");
+}
+
+.mz4{
+	background-image: url("../assets/Mostaza/h4.png");
+}
+
+.mz5{
+	background-image: url("../assets/Mostaza/h5.png");
+}
+
+.mz6{
+	background-image: url("../assets/Mostaza/h6.png");
+}
+
+.mz7{
+	background-image: url("../assets/Mostaza/h7.png");
+}
+
+.mz8{
+	background-image: url("../assets/Mostaza/h8.png");
+}
+
+.mz9{
+	background-image: url("../assets/Mostaza/h9.png");
+}
+
+.mz10{
+	background-image: url("../assets/Mostaza/h10.png");
+}
+
+.mz11{
+	background-image: url("../assets/Mostaza/h11.png");
+}
+
+.mz12{
+	background-image: url("../assets/Mostaza/h12.png");
+}
+
+.mz13{
+	background-image: url("../assets/Mostaza/h13.png");
+}
+
+/* Fin de Mostaza */
+
+/* Wendy´s */
+
+#wendys{
+	background-image: url("../assets/Wendys/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;		
+}
+
+.w1{
+	background-image: url("../assets/Wendys/h1.png");
+}
+
+.w2{
+	background-image: url("../assets/Wendys/h2.png");
+}
+
+.w3{
+	background-image: url("../assets/Wendys/h3.png");
+}
+
+.w4{
+	background-image: url("../assets/Wendys/h4.png");
+}
+
+.w5{
+	background-image: url("../assets/Wendys/h5.png");
+}
+
+.w6{
+	background-image: url("../assets/Wendys/h6.png");
+}
+
+/* Fin de Wendy´s */
+
+/* KFC */
+
+#fkfc{ /* Configuracion especial para el footer de kfc porque queda un espacio grande */
+	grid-area: footer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffc107;
+	font-size: 30px;
+	text-align: center;
+	padding: 15px;
+	margin-top: 147px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#kfc{
+	background-image: url("../assets/KFC/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;		
+}
+
+.k1{
+	background-image: url("../assets/KFC/h1.png");
+}
+
+.k2{
+	background-image: url("../assets/KFC/h2.png");
+}
+
+.k3{
+	background-image: url("../assets/KFC/h3.png");
+}
+
+/* Fin de KFC */
+
+/* BurgaPoint */
+
+/*#bp{ Despues agregare una foto que tengo que sacarle al local
+	background-image: url("../assets/BurgaPoint/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;		
+}*/
+
+.bp1{
+	background-image: url("../assets/BurgaPoint/h1.png");
+}
+
+.bp2{
+	background-image: url("../assets/BurgaPoint/h2.png");
+}
+
+.bp3{
+	background-image: url("../assets/BurgaPoint/h3.png");
+}
+
+.bp4{
+	background-image: url("../assets/BurgaPoint/h4.png");
+}
+
+.bp5{
+	background-image: url("../assets/BurgaPoint/h5.png");
+}
+
+.bp6{
+	background-image: url("../assets/BurgaPoint/h6.png");
+}
+
+.bp7{
+	background-image: url("../assets/BurgaPoint/h7.png");
+}
+
+.bp8{
+	background-image: url("../assets/BurgaPoint/h8.png");
+}
+
+.bp9{
+	background-image: url("../assets/BurgaPoint/h9.png");
+}
+
+.bp10{
+	background-image: url("../assets/BurgaPoint/h10.png");
+}
+
+.bp11{
+	background-image: url("../assets/BurgaPoint/h11.png");
+}
+
+.bp12{
+	background-image: url("../assets/BurgaPoint/h12.png");
+}
+
+.bp13{
+	background-image: url("../assets/BurgaPoint/h13.png");
+}
+
+.bp14{
+	background-image: url("../assets/BurgaPoint/h14.png");
+}
+
+.bp15{
+	background-image: url("../assets/BurgaPoint/h15.png");
+}
+
+/* Fin de BurgaPoint */
+
+/* Porthos */
+
+/*#bp{ Despues agregare una foto que tengo que sacarle al local
+	background-image: url("../assets/BurgaPoint/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;		
+}*/
+
+.p1{
+	background-image: url("../assets/Porthos/h1.png");
+}
+
+.p2{
+	background-image: url("../assets/Porthos/h2.png");
+}
+
+.p3{
+	background-image: url("../assets/Porthos/h3.png");
+}
+
+.p4{
+	background-image: url("../assets/Porthos/h4.png");
+}
+
+.p5{
+	background-image: url("../assets/Porthos/h5.png");
+}
+
+.p6{
+	background-image: url("../assets/Porthos/h6.png");
+}
+
+/* Fin de Porthos */

@@ -63,6 +63,7 @@ header nav ul li a {
 header nav ul li a:hover {
     background: #000;
     color: #fff;
+    transition: .4s;
 }
 
 header nav ul li ul {
@@ -93,6 +94,7 @@ header label {
     cursor: pointer;
     display: none;
 }
+
 
 @media(max-width: 991px) {
 
@@ -176,6 +178,7 @@ main section {
     margin: 0.9rem;
     font-family: 'Oswald', sans-serif;
     border-radius: 15px;
+    animation: zoomIn .5s ease;
 }
 
 .Card:hover {
@@ -206,6 +209,19 @@ main section {
     font-size: 1.25rem;
     color: black;
     margin-bottom: 40px;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
 }
 
 @media(max-width: 991px) {
@@ -239,6 +255,7 @@ main section {
         margin: 15px;
         font-family: 'Oswald', sans-serif;
         border-radius: 15px;
+        animation: fadeInLeft .5s ease;
     }
 
     .cardBody {
@@ -252,6 +269,20 @@ main section {
         background-size: cover;
         background-position: center;
         border-radius: 15px 15px 0 0;
+    }
+
+    @keyframes fadeInLeft {
+        from {
+            opacity: 0;
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+        }
+
+        to {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
     }
 }
 

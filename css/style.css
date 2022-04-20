@@ -109,6 +109,7 @@ header label {
 
     header {
         padding: 20px;
+
     }
 
     header label {
@@ -159,13 +160,12 @@ main section {
 .Titulos {
     font-family: 'Roboto', sans-serif;
     background-color: #ffc107;
-    text-align: center;
-    text-transform: uppercase;
     font-size: 3.5rem;
     margin: 20px 10px 20px 10px;
 }
 
 .container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,6 +359,16 @@ footer {
 
 /* Inicio Del Formulario */
 
+#headercard {
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
 #Nosotros {
 
     background: #ffc107;
@@ -367,6 +377,7 @@ footer {
     padding: 10px;
     margin-top: 2rem;
 }
+
 
 .TextoNosotros {
     padding: 5px;
@@ -384,48 +395,15 @@ footer {
     width: 100%;
 }
 
-form {
-
-    margin: auto;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 10px 20px;
-    box-sizing: border-box;
-    margin-top: 136px;
-    margin-bottom: 135px;
-    border-radius: 7px;
-}
-
-form h2 {
+.conteiner {
     font-family: 'Roboto', sans-serif;
-    color: #fff;
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-input,
-textarea {
     width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 1.06rem;
-    border: none;
-}
-
-textarea {
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
-}
-
-#boton {
-    padding: 20px;
-}
-
-#boton:hover {
-    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    max-width: 1320px;
 }
 
 @media(max-width: 810px) {

@@ -1,0 +1,393 @@
+
+@import "colores";
+@import "keyframes";
+
+*{
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.gridPadre {
+    display: grid;
+    grid-template-areas: "header"
+        "main"
+        "footer"
+    ;
+    justify-items: stretch;
+    background-image: url("../assets/Global/fondo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Inicio de personalización del Header y Nav */
+
+header {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    grid-area: header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 7%;
+    background: $amarillo;
+    box-shadow: 5px 0 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+    label{
+	   	font-size: 1.5rem;
+	    color: #000;
+	    cursor: pointer;
+	    display: none;
+    }
+
+    nav{
+    	ul{
+    		li{
+    			position: relative;
+    			float: left;
+    			a{
+    				font-size: 1.5rem;
+				    padding: 20px;
+				    color: #000;
+				    display: block;
+				    &:hover{
+				    	background: #000;
+					    color: #fff;
+					    transition: .4s;
+				    }
+    			}
+    			ul{
+    				position: absolute;
+				    left: 0;
+				    width: 200px;
+				    background: $amarillo;
+				    display: none;
+				    li{
+				    	width: 100%;
+    					border: 1px solid rgba(0, 0, 0, .1);
+				    }
+    			}
+    		&:focus-within>ul,
+    		&:hover>ul,
+    		&:active>ul{
+    			display: initial;
+    		}	
+    		}
+    	}
+    }
+}
+
+.logo{
+	height: 6rem;
+}
+
+#menu-bar {
+	display: none;
+}
+
+/* Fin de la personalización */
+
+/* Inicio de la personalizacion del Main */
+
+main{
+    margin-top: 7rem;
+    grid-area: main;
+    section{
+    	text-align: center;
+    }	
+}
+
+.Titulos{
+    font-family: 'Roboto', sans-serif;
+    background-color: $amarillo;
+    font-size: 3.5rem;
+    margin: 20px 10px 20px 10px;	
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Card {
+    width: 36rem;
+    height: 29.8rem;
+    background-color: #fff;
+    margin: 0.9rem;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 15px;
+    animation: zoomIn .5s ease;
+    &:hover{
+    	    box-shadow: 0 0 20px 7px rgb(0, 0, 0);
+    		transform: scale(1.03);
+    }
+}
+
+.CardImage {
+    height: 24rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.CardTitle {
+    font-size: 2.5rem;
+    color: black;
+    line-height: 50px;
+}
+
+.CardTitle1 {
+    font-size: 2.5rem;
+    color: black;
+    line-height: 80px;
+}
+
+.CardText {
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+/* Fotos de las cartas */
+
+.mc {
+    background-image: url("../assets/Global/mc.png");
+}
+
+.bk {
+    background-image: url("../assets/Global/bk.png");
+}
+
+.mostaza {
+    background-image: url("../assets/Global/mostaza.png");
+}
+
+.wendys {
+    background-image: url("../assets/Global/w.png");
+}
+
+.kfc {
+    background-image: url("../assets/Global/kfc.png");
+}
+
+.bp {
+    background-image: url("../assets/Global/burga.png");
+}
+
+.porthos {
+    background-image: url("../assets/Global/porthos.png");
+}
+
+/* Fin de las fotos */
+
+/* Fin de la personalización */
+
+/* Inicio de la personalización del Footer */
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $amarillo;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Iconos{
+	i{
+		font-size: 1.8rem;
+	    color: black;
+	    padding: 0 8px;
+	}
+}
+
+/* Fin de la personalización */
+
+/* Inicio Del Formulario */
+
+#headercard {
+    background: #1488CC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+#Nosotros {
+
+    background: $amarillo;
+    box-shadow: 5px 0 10px black;
+    flex-wrap: nowrap;
+    padding: 10px;
+    margin-top: 2rem;
+}
+
+
+.TextoNosotros {
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.nosotrosTitulo {
+    padding-bottom: 40px;
+}
+
+.imgNosotros {
+    width: 100%;
+}
+
+.conteiner {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: left;
+    max-width: 1320px;
+}
+
+/* responsive Header */
+
+@media(max-width: 991px) {
+
+    .body {
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
+        ;
+    }
+
+    header {
+        padding: 20px;
+
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #ffc107;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header nav ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header nav ul li ul li {
+        background: #efb401;
+    }
+
+    #menu-bar:checked~nav {
+        display: initial;
+    }
+}
+/* responsive Main */    
+
+@media(max-width: 991px) {
+    main {
+        margin-top: 10rem;
+    }
+}
+
+@media(max-width: 630px) {
+
+    main {
+        margin-top: 10rem;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Card {
+        width: 100%;
+        height: 34rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-clip: border-box;
+        background-color: #fff;
+        margin: 15px;
+        font-family: 'Oswald', sans-serif;
+        border-radius: 15px;
+        animation: fadeInLeft .5s ease;
+    }
+
+    .cardBody {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+    }
+
+    .CardImage {
+        width: 100%;
+        height: 26rem;
+        background-size: cover;
+        background-position: center;
+        border-radius: 15px 15px 0 0;
+    }
+}
+
+/* responsive Footer */   
+
+@media(max-width: 630px) {
+    footer {
+        flex-direction: column-reverse;
+        font-size: 1rem;
+    }
+
+    .Iconos i {
+        font-size: 1.5rem;
+        width: 2em;
+    }
+
+}
+
+
+/* responsive Formulario */  
+
+@media(max-width: 810px) {
+    #Nosotros {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}

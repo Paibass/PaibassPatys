@@ -114,11 +114,15 @@ main{
     margin: 20px 10px 20px 10px;	
 }
 
+@mixin centrado{
+  justify-content: center;
+  align-items:  center;
+}
+
 .container {
+    @include centrado;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -150,8 +154,7 @@ main{
 }
 
 .CardTitle1 {
-    font-size: 2.5rem;
-    color: black;
+    @extend .CardTitle;
     line-height: 80px;
 }
 
@@ -198,10 +201,9 @@ main{
 /* Inicio de la personalización del Footer */
 
 footer {
+    @include centrado;
     grid-area: footer;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: $amarillo;
     font-size: 1.8rem;
     text-align: center;
@@ -258,14 +260,21 @@ footer {
     width: 100%;
 }
 
+$contenedorEstilo:(
+    3rem : 3rem,
+    auto : auto,
+    izq : left,
+    total : 100%
+);
+
 .conteiner {
     font-family: 'Roboto', sans-serif;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    text-align: left;
+    margin-left: map-get($contenedorEstilo, auto);
+    margin-right: map-get($contenedorEstilo, auto);
+    padding-left: map-get($contenedorEstilo, 3rem);
+    padding-right: map-get($contenedorEstilo, 3rem);
+    text-align: map-get($contenedorEstilo, izq);
     max-width: 1320px;
 }
 

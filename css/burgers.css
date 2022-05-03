@@ -72,6 +72,100 @@
 	background-image: url("../assets/McDonalds/h16.png");
 }
 
+.hamburguesa{
+	margin-top: 9%;
+	margin-bottom: 9%;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	padding: 10px 5px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.hamContenido{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.hamImg{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-left: 25vw;
+}
+
+.hamDescripcion{
+	margin-right: 23vw;
+	margin-left: 2vw;
+	text-align: left;
+}
+
+.hamDescripcion h1{
+	font-size: 3rem;
+	background-color: #ffc107;
+}
+
+.hamDescripcion .kcal{
+	font-size: 1rem;
+	letter-spacing: .1rem;
+}
+
+.hamDescripcion p{
+	font-size: 1.5rem;
+}
+
+.hamVenta{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.hamVenta .precio{
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+	letter-spacing: .2rem;
+}
+
+.hamVenta .btn{
+	font-size: 1.5rem;
+}
+
+@media(max-width: 1130px){
+	.hamDescripcion h1{
+		font-size: 2.5rem;
+	}
+	.hamContenido{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.hamImg{
+		margin-left: 0;
+	}
+
+	.hamDescripcion{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+}
+
+@media(max-width: 630px){
+	.hamDescripcion p{
+		font-size: 1rem;
+	}
+	.hamVenta .precio{
+		font-size: 1rem;
+	}
+
+	.hamVenta .btn{
+		font-size: 1rem;
+	}
+}
 /* Fin de McDonalds */
 
 /* Burger King */

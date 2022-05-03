@@ -72,6 +72,16 @@
 	background-image: url("../assets/McDonalds/h16.png");
 }
 
+/* Empieza estilos de cada hamburguesa Mcdonald */
+
+html{
+	background-image: url("../assets/McDonalds/fondo1.png");
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
 .hamburguesa{
 	margin-top: 9%;
 	margin-bottom: 9%;
@@ -81,6 +91,9 @@
 	background-color: lightgrey;
 	padding: 10px 5px;
 	font-family: 'Oswald', sans-serif;
+	opacity: .9;
+	box-shadow: 0 0 20px 7px rgb(0, 0, 0);
+	animation: fadeInLeft 0.5s ease;
 }
 
 .hamContenido{
@@ -135,6 +148,10 @@
 }
 
 @media(max-width: 1130px){
+	.hamburguesa{
+		animation: zoomIn 0.5s ease;
+	}
+
 	.hamDescripcion h1{
 		font-size: 2.5rem;
 	}

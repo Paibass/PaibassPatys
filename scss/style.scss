@@ -158,6 +158,13 @@ main{
     line-height: 80px;
 }
 
+.CardTitle11 {
+    @extend .CardTitle;
+    line-height: 80px;
+}
+
+
+
 .CardText {
     font-size: 1.25rem;
     color: black;
@@ -340,6 +347,10 @@ $contenedorEstilo:(
         margin-top: 10rem;
     }
 
+    .Titulos{
+        font-size: 2rem;
+    }
+
     .container {
         width: 100%;
         margin-left: auto;
@@ -366,6 +377,11 @@ $contenedorEstilo:(
         flex: 1 1 auto;
         padding: 1rem 1rem;
     }
+
+    .CardTitle11 {
+    line-height: 50px;
+}
+
 
     .CardImage {
         width: 100%;

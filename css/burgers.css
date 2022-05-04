@@ -284,6 +284,91 @@ html{
 	background-image: url("../assets/BurgerKing/h21.png");
 }
 
+#burgerKing{
+	background-image: url("../assets/BurgerKing/fondo.png");
+}
+
+.king{
+	max-width: 800px;
+	margin: 3% 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #f5ebdc;
+	color: #502314;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 7px rgb(0, 0, 0);
+	animation: backInLeft 0.5s ease;
+}
+
+.kingImg{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.kingTitle{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.kingSubTitle{
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.kingText{
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.kingPrecio{
+	justify-content: center;
+	display: flex;
+	font-size: 1.5rem;
+	letter-spacing: .2rem;	
+	margin-bottom: 20px;
+}
+
+.kingBtn{
+	padding: 10px;
+}
+
+.kingBtn .btn{ 
+	font-size: 1.5rem;
+
+}
+
+@media(max-width: 630px){
+	.king{
+		animation: backInUp .5s ease;
+	}
+
+	.kingImg img{
+		width: 90vw;
+	}
+
+	.kingTitle{
+		font-size: 1.5rem;
+	}
+
+	.kingPrecio{
+		font-size: 1rem;
+	}
+
+	.kingBtn .btn{ 
+	font-size: 1rem;
+}
+}
+
 /* Fin de Burger King */
 
 /* Mostaza */

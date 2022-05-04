@@ -116,6 +116,9 @@ html{
 }
 
 .hamDescripcion h1{
+	max-width: 600px;
+	margin-right: -23vw;
+	white-space: nowrap; 
 	font-size: 3rem;
 	background-color: #ffc107;
 }
@@ -153,7 +156,9 @@ html{
 	}
 
 	.hamDescripcion h1{
+		max-width: 100%;
 		font-size: 2.5rem;
+		margin-right: 0;
 	}
 	.hamContenido{
 		flex-direction: column;

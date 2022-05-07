@@ -72,6 +72,130 @@
 	background-image: url("../assets/McDonalds/h16.png");
 }
 
+/* Empieza estilos de cada hamburguesa Mcdonald */
+
+html{
+	background-image: url("../assets/McDonalds/fondo1.png");
+	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+.hamburguesa{
+	margin-top: 9%;
+	margin-bottom: 9%;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	padding: 10px 5px;
+	font-family: 'Oswald', sans-serif;
+	opacity: .9;
+	box-shadow: 0 0 20px 7px rgb(0, 0, 0);
+	animation: fadeInLeft 0.5s ease;
+}
+
+.hamContenido{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.hamImg{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin-left: 25vw;
+}
+
+.hamDescripcion{
+	margin-right: 23vw;
+	margin-left: 2vw;
+	text-align: left;
+}
+
+.hamDescripcion h1{
+	max-width: 600px;
+	margin-right: -23vw;
+	white-space: nowrap; 
+	font-size: 3rem;
+	background-color: #ffc107;
+}
+
+.hamDescripcion .kcal{
+	font-size: 1rem;
+	letter-spacing: .1rem;
+}
+
+.hamDescripcion p{
+	font-size: 1.5rem;
+}
+
+.hamVenta{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.hamVenta .precio{
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+	letter-spacing: .2rem;
+}
+
+.hamVenta .btn{
+	font-size: 1.5rem;
+}
+
+
+@media(max-width: 1130px){
+	.hamburguesa{
+		animation: zoomIn 0.5s ease;
+	}
+
+	.hamDescripcion h1{
+		max-width: 100%;
+		font-size: 2.5rem;
+		margin-right: 0;
+	}
+	.hamContenido{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.hamImg{
+		margin-left: 0;
+	}
+
+	.hamImg img{
+		width: 90vw;
+	}
+
+	.hamDescripcion{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+}
+
+@media(max-width: 630px){
+	.hamDescripcion h1{
+		font-size: 2rem;
+	}
+	.hamDescripcion p{
+		font-size: 1rem;
+	}
+	.hamVenta .precio{
+		font-size: 1rem;
+	}
+
+	.hamVenta .btn{
+		font-size: 1rem;
+	}
+}
 /* Fin de McDonalds */
 
 /* Burger King */
@@ -168,6 +292,91 @@
 	background-image: url("../assets/BurgerKing/h21.png");
 }
 
+#burgerKing{
+	background-image: url("../assets/BurgerKing/fondo.png");
+}
+
+.king{
+	max-width: 800px;
+	margin: 3% 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #f5ebdc;
+	color: #502314;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 7px rgb(0, 0, 0);
+	animation: backInLeft 0.5s ease;
+}
+
+.kingImg{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+
+.kingTitle{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.kingSubTitle{
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.kingText{
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.kingPrecio{
+	justify-content: center;
+	display: flex;
+	font-size: 1.5rem;
+	letter-spacing: .2rem;	
+	margin-bottom: 20px;
+}
+
+.kingBtn{
+	padding: 10px;
+}
+
+.kingBtn .btn{ 
+	font-size: 1.5rem;
+
+}
+
+@media(max-width: 630px){
+	.king{
+		animation: backInUp .5s ease;
+	}
+
+	.kingImg img{
+		width: 90vw;
+	}
+
+	.kingTitle{
+		font-size: 1.5rem;
+	}
+
+	.kingPrecio{
+		font-size: 1rem;
+	}
+
+	.kingBtn .btn{ 
+	font-size: 1rem;
+}
+}
+
 /* Fin de Burger King */
 
 /* Mostaza */
@@ -232,6 +441,45 @@
 	background-image: url("../assets/Mostaza/h13.png");
 }
 
+.hamMostaza{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 20px;
+	color: #d92f36;
+	font-family: 'Oswald', sans-serif;
+	border: 5px solid #d92f36;
+	box-shadow: 4px 3px 73px 0px rgba(217,47,54,1);
+	animation: bounceIn 1s ease;
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+.hamMostazaTitle{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+.hamMostazaText{
+	padding: 10px;
+	font-size: 1.3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.hamMostazaPrecio{
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	letter-spacing: .2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.hamMostazaBtn .btn{
+	font-size: 1.5rem;
+}
+
 /* Fin de Mostaza */
 
 /* Wendy´s */
@@ -268,6 +516,104 @@
 	background-image: url("../assets/Wendys/h6.png");
 }
 
+#wendy{
+	background-image: url(none);
+	background-color: #911317;
+}
+
+.wendy{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 20px;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	animation: zoomIn .3s ease;
+}
+
+.wendyImg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wendyText{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	padding: 20px 10px;
+	animation: zoomIn .7s ease;
+}
+
+.wendyText h1{
+	font-size: 4rem;
+	margin-bottom: 20px;
+}
+
+.wendyText p{
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.wendyText h2{
+	font-size: 2.5rem;
+	letter-spacing: .2rem;
+	margin-bottom: 20px;
+}
+
+.wendyText a .btn{
+	font-size: 1.5rem;
+}
+
+@media(min-width:  1400px){
+	.wendyText p{
+		width: 50ch;
+	}
+
+	.wendyImg{
+		margin-bottom: 81px;
+		;
+	}
+}
+
+@media(max-width: 1000px){
+	.wendy{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wendyText p{
+		width: auto;
+
+	}
+
+	.wendyImg img{
+		width: 80vw;
+	}
+}
+
+@media(max-width: 630px){
+	.wendyImg img{
+		width: 80vw;
+	}
+
+	.wendyText h1{
+		font-size: 3rem;
+	}
+
+	.wendyText h2{
+		font-size: 2rem;
+	}
+
+	.wendyText p {
+		font-size: 1.5rem;
+	}
+
+	.wendyText a .btn{
+		font-size: 1.5rem;
+	}
+}
 /* Fin de Wendy´s */
 
 /* KFC */
@@ -305,17 +651,84 @@
 	background-image: url("../assets/KFC/h3.png");
 }
 
+.hamKFC{
+	margin-bottom:8% ;
+	margin-top: 8%;
+	border-radius: 20px;
+	display: flex;
+	background-color: #8D8787;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	animation: zoomIn .5s ease;
+	box-shadow: 0 0 20px 7px rgb(0, 0, 0);
+}
+
+.hamKFC1{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.hamKFCimg img{
+	border-radius: 50%;
+}
+
+.hamKFCTitle{
+	font-size: 2rem;
+	margin-top: 5%;
+}
+
+.hamKFC2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+
+.hamKFCText{
+	font-size: 1.3rem;
+	margin-top: 2%;
+	margin-bottom: 6%;
+	width: 50ch;
+}
+
+.hamKFCPrice{
+	font-size: 1.5rem;
+	margin-bottom: 6%;
+}
+
+.hamKFCBtn .btn{
+	font-size: 1.2rem;
+
+}
+
+@media(max-width: 1200px){
+	.hamKFC{
+		flex-direction: column;
+
+	}
+
+	.hamKFCText{
+		width: auto;
+	}
+
+	.hamKFCimg img{
+		width: 80vw;
+	}
+}
+
 /* Fin de KFC */
 
 /* BurgaPoint */
 
-/*#bp{ Despues agregare una foto que tengo que sacarle al local
-	background-image: url("../assets/BurgaPoint/fondo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;		
-}*/
+#burga{
+	background-image: url("../assets/Global/fondo.png");
+}
+
+#bp{ 
+	background-image: url(none);
+	background-color: #000;
+}
 
 .bp1{
 	background-image: url("../assets/BurgaPoint/h1.png");
@@ -377,17 +790,62 @@
 	background-image: url("../assets/BurgaPoint/h15.png");
 }
 
+.burga{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #000;
+	border: 5px solid #f0a542;
+	box-shadow: 0px 11px 74px 22px rgba(240,165,66,0.85);
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	animation: zoomIn .3s ease-in;
+
+}
+
+.burgaTitle{
+	font-size: 2rem;
+	margin: 10px;
+}
+
+.burgaTitle h1:hover{
+	color: #f0a542;
+}
+
+.burgaText{
+	font-size: 1.2rem;
+	margin: 10px;
+}
+
+.burgaText p:hover{
+	color: #f0a542;
+}
+
+.burgaPrice{
+	font-size: 1.5rem;
+	letter-spacing: .2rem;
+	margin: 10px;
+}
+
+.burgaPrice h2:hover{
+	color: #f0a542;
+}
+
+.burgaBtn .btn{
+	margin: 10px;
+	font-size: 1.2rem;
+}
+
+@media(max-width: 700px){
+	.burgaImg img{
+		width: 80vw;
+	}
+}
 /* Fin de BurgaPoint */
 
 /* Porthos */
-
-/*#bp{ Despues agregare una foto que tengo que sacarle al local
-	background-image: url("../assets/BurgaPoint/fondo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;		
-}*/
 
 .p1{
 	background-image: url("../assets/Porthos/h1.png");
@@ -413,4 +871,57 @@
 	background-image: url("../assets/Porthos/h6.png");
 }
 
+.porto{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	border: 10px double yellow;
+}
+
+.portoImg img{
+	border: 2px dashed yellow;
+	width: 80%;
+}
+
+.portoTitle{
+	margin: 10px;
+	color: #e7da0c;
+	font-size: 3rem;
+}
+
+.portoText{
+	margin: 10px;
+	font-size: 2rem;
+}
+
+.portoText ul li:hover{
+	color: #e7da0c;
+}
+
+.portoPrice{
+	margin: 10px;
+	font-size: 2rem;
+	letter-spacing: .2rem;
+}
+
+.portoBtn .btn{
+	font-size: 1.5rem;
+}
+
+@media(max-width: 500px){
+	.portoText{
+		font-size: 1.5rem;
+	}
+	.portoPrice{
+		font-size: 1.5rem;
+	}
+
+	.portoBtn .btn{
+		font-size: 1rem;
+	}
+}
 /* Fin de Porthos */

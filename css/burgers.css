@@ -516,6 +516,99 @@ html{
 	background-image: url("../assets/Wendys/h6.png");
 }
 
+#wendy{
+	background-image: url(none);
+	background-color: #911317;
+}
+
+.wendy{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 20px;
+	margin-top: 6%;
+	margin-bottom: 6%;
+	animation: zoomIn .3s ease;
+}
+
+.wendyImg{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wendyText{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	padding: 20px 10px;
+	animation: zoomIn .7s ease;
+}
+
+.wendyText h1{
+	font-size: 4rem;
+	margin-bottom: 20px;
+}
+
+.wendyText p{
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.wendyText h2{
+	font-size: 2.5rem;
+	letter-spacing: .2rem;
+	margin-bottom: 20px;
+}
+
+.wendyText a .btn{
+	font-size: 1.5rem;
+}
+
+@media(min-width:  1400px){
+	.wendyText p{
+		width: 50ch;
+	}
+}
+
+@media(max-width: 1000px){
+	.wendy{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wendyText p{
+		width: auto;
+
+	}
+
+	.wendyImg img{
+		width: 80vw;
+	}
+}
+
+@media(max-width: 630px){
+	.wendyImg img{
+		width: 80vw;
+	}
+
+	.wendyText h1{
+		font-size: 3rem;
+	}
+
+	.wendyText h2{
+		font-size: 2rem;
+	}
+
+	.wendyText p {
+		font-size: 1.5rem;
+	}
+
+	.wendyText a .btn{
+		font-size: 1.5rem;
+	}
+}
 /* Fin de Wendy´s */
 
 /* KFC */

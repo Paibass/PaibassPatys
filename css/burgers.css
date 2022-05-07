@@ -570,6 +570,11 @@ html{
 	.wendyText p{
 		width: 50ch;
 	}
+
+	.wendyImg{
+		margin-bottom: 81px;
+		;
+	}
 }
 
 @media(max-width: 1000px){

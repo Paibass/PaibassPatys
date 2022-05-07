@@ -451,8 +451,8 @@ html{
 	border: 5px solid #d92f36;
 	box-shadow: 4px 3px 73px 0px rgba(217,47,54,1);
 	animation: bounceIn 1s ease;
-	margin-top: 4%;
-	margin-bottom: 4%;
+	margin-top: 6%;
+	margin-bottom: 6%;
 }
 
 .hamMostazaTitle{
@@ -721,13 +721,14 @@ html{
 
 /* BurgaPoint */
 
-/*#bp{ Despues agregare una foto que tengo que sacarle al local
-	background-image: url("../assets/BurgaPoint/fondo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;		
-}*/
+#burga{
+	background-image: url("../assets/Global/fondo.png");
+}
+
+#bp{ 
+	background-image: url(none);
+	background-color: #000;
+}
 
 .bp1{
 	background-image: url("../assets/BurgaPoint/h1.png");
@@ -789,17 +790,62 @@ html{
 	background-image: url("../assets/BurgaPoint/h15.png");
 }
 
+.burga{
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #000;
+	border: 5px solid #f0a542;
+	box-shadow: 0px 11px 74px 22px rgba(240,165,66,0.85);
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	animation: zoomIn .3s ease-in;
+
+}
+
+.burgaTitle{
+	font-size: 2rem;
+	margin: 10px;
+}
+
+.burgaTitle h1:hover{
+	color: #f0a542;
+}
+
+.burgaText{
+	font-size: 1.2rem;
+	margin: 10px;
+}
+
+.burgaText p:hover{
+	color: #f0a542;
+}
+
+.burgaPrice{
+	font-size: 1.5rem;
+	letter-spacing: .2rem;
+	margin: 10px;
+}
+
+.burgaPrice h2:hover{
+	color: #f0a542;
+}
+
+.burgaBtn .btn{
+	margin: 10px;
+	font-size: 1.2rem;
+}
+
+@media(max-width: 700px){
+	.burgaImg img{
+		width: 80vw;
+	}
+}
 /* Fin de BurgaPoint */
 
 /* Porthos */
-
-/*#bp{ Despues agregare una foto que tengo que sacarle al local
-	background-image: url("../assets/BurgaPoint/fondo.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;		
-}*/
 
 .p1{
 	background-image: url("../assets/Porthos/h1.png");

@@ -651,6 +651,72 @@ html{
 	background-image: url("../assets/KFC/h3.png");
 }
 
+.hamKFC{
+	margin-bottom:7% ;
+	margin-top: 7%;
+	border-radius: 20px;
+	display: flex;
+	background-color: #8D8787;
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	animation: zoomIn .5s ease;
+	box-shadow: 0 0 20px 7px rgb(0, 0, 0);
+}
+
+.hamKFC1{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.hamKFCimg img{
+	border-radius: 50%;
+}
+
+.hamKFCTitle{
+	font-size: 2rem;
+	margin-top: 5%;
+}
+
+.hamKFC2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+
+.hamKFCText{
+	font-size: 1.3rem;
+	margin-top: 2%;
+	margin-bottom: 6%;
+	width: 50ch;
+}
+
+.hamKFCPrice{
+	font-size: 1.5rem;
+	margin-bottom: 6%;
+}
+
+.hamKFCBtn .btn{
+	font-size: 1.2rem;
+
+}
+
+@media(max-width: 1200px){
+	.hamKFC{
+		flex-direction: column;
+
+	}
+
+	.hamKFCText{
+		width: auto;
+	}
+
+	.hamKFCimg img{
+		width: 80vw;
+	}
+}
+
 /* Fin de KFC */
 
 /* BurgaPoint */

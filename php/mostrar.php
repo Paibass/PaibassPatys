@@ -11,10 +11,10 @@ if ($inc) {
 			$feedback = $row['feedback'];
 			$fechareg = $row['fecha_reg'];
 			?>
-			<div style="background-color: #fff;" >
-				<h2>hi <?php echo $nombre; ?> </h2>
+			<div class="m-4 bg-light" style="font-family: 'Roboto', sans-serif;">
+				<h2><?php echo $nombre; ?> </h2>
 				<div>
-					<p>
+					<p class="fs-4">
 						<?php echo $feedback ?>
 					</p>
 				</div>

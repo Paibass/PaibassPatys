@@ -96,7 +96,7 @@
             <section>
                 <h2 class="Titulos">OPINIONES</h2>
             </section>
-            <section class="container-fluid pt-4 text-center">
+            <section class="container-fluid text-center fs-3">
                 <?php
           include("../php/mostrar.php");
          ?>

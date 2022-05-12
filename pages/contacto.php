@@ -26,7 +26,7 @@
             <nav>
                 <ul>
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="contacto.php">Contacto</a></li>
                     <li><a href="#">Populares</a>
                         <ul>
                             <li><a href="populares/mc.html">Mcdonalds</a></li>
@@ -95,7 +95,7 @@
             </section>
             <section class="container-fluid pt-4 text-center">
                 <?php
-          include("mostrar.php");
+          include("../php/mostrar.php");
          ?>
             </section>
         </main>

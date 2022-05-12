@@ -85,6 +85,9 @@
                                         </div>
                                         <button class="btn btn-primary align-self-end" type="submit" name="register">Enviar</button>
                                     </form>
+                                    <?php
+                                        include("../php/registrar.php");
+                                    ?>
                                 </div>
                             </div>
                         </div>

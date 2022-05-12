@@ -395,7 +395,8 @@ $contenedorEstilo:(
     .CardImage {
         width: 100%;
         height: 26rem;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         background-position: center;
         border-radius: 15px 15px 0 0;
     }

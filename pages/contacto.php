@@ -92,6 +92,7 @@
                             </div>
                         </div>
                     </div>
+                      <script type="text/javascript" src="../js/refresh.js"></script>
             </section>
             <section>
                 <h2 class="Titulos">OPINIONES</h2>

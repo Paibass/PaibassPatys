@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Contacto | Paibas´s Paty</title>
-    
 </head>
 
 <body>
@@ -75,7 +74,7 @@
                                             </div>
                                             <div class="col-md-6 mb-3">
                                                 <label for="exampleFormControlInput1" class="form-label">Correo Electronico</label>
-                                                <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
+                                                <input name="email" type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
                                                 <div class="invalid-feedback">Complete el campo.</div>
                                             </div>
                                             <div class="col-md-6 mb-3">
@@ -93,6 +92,11 @@
             </section>
             <section>
                 <h2 class="Titulos">OPINIONES</h2>
+            </section>
+            <section class="container-fluid pt-4 text-center">
+                <?php
+          include("mostrar.php");
+         ?>
             </section>
         </main>
         <footer>

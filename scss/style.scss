@@ -171,6 +171,8 @@ main{
     margin-bottom: 40px;
 }
 
+
+
 /* Fotos de las cartas */
 
 .mc {
@@ -399,6 +401,10 @@ $contenedorEstilo:(
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 15px 15px 0 0;
+    }
+
+    .fix{
+        background-size: cover;
     }
 }
 
